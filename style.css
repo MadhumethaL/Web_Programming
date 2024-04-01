@@ -1,0 +1,221 @@
+a{
+    text-decoration: none;
+}
+
+
+h2{
+    font-weight: 600;
+}
+
+#custom-cards p{
+    font-size: 20px;
+    font-family: Montserrat;
+}
+
+#main_logo{
+    position: absolute;
+    width: 60px;
+    height: 50px;
+    margin-top: 0px;
+    margin-left: 1450px;
+    border-radius: 5px;
+}
+
+.bg{
+    width:1519px;
+    height:100%;
+}
+
+.tce{
+    margin-top: 160px;
+    margin-left: 750px;
+    font-weight:bolder;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.sync_space{
+    margin-top: 200px;
+    width: 550px;
+    height:200px;
+    background-color: white;
+    margin-left: 500px;
+}
+
+.in-sync{
+   padding: 20px;
+   text-align: center;
+}
+.sync_space .pre-sync{
+    font-size: 40px;
+    font-family:"Archivo Black", sans-serif;
+    margin: 0;
+}
+
+.sync_space .post-space{
+    font-size: 80px;
+    font-family: "Archivo Black", sans-serif;
+}
+.archivo-black-regular
+{
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    position: relative;
+    margin:0;
+    padding: 0;
+}
+
+.text-overlay {
+    position: absolute; 
+}
+
+.features{
+    margin: 30px;
+    width: 800px;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "Encode Sans Expanded";
+}
+
+.encode-sans expanded-regular {
+    font-family: "Encode Sans Expanded", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.container-1, .work_hr, .work{
+    margin-left: 120px ;
+    margin-right: 120px;   
+}
+.card-1{
+    background-image: url('./assets/Sih.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-2{
+    background-image: url('./assets/Psg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-3{
+    background-image: url('./assets/Pec.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.objectives .head{
+    width:450px;
+    font-size: 40px;
+    margin-left:120px;
+    font-family: "Archivo Black", sans-serif;
+}
+
+.objectives .point1,.point3{
+    background-color: rgb(34, 33, 33);
+    width:65%;
+    height: 150px;
+    margin-left:120px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.objectives .point2{
+    background-color: rgb(34, 33, 33);
+    width:65%;
+    margin-left:30%;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.point1,.point2,.point3 p{
+    color: white;
+    font-size: 1.4rem;
+    font-family:Inconsolata;
+}
+
+
+.pre-sync {
+    animation: slideInFromLeft 1.5s ease-in-out forwards;
+}
+
+.post-space {
+    animation: slideInFromRight 1.5s ease-in-out forwards;
+}
+
+.hexagon {
+    width: 200px;
+    height: 200px; 
+    background-color: rgb(34, 33, 33);
+    border-style: solid;
+    border-color: white;
+    margin-top: 50px;
+    margin-left: 110px;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.sync_space_logo{
+    width: 80px;
+    height: 50px;
+}
+
+.workshop{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    margin-left:120px;
+    margin-right: 120px;
+    padding: 10px;
+}
+
+
+
+.workshop .col-lg-4 {
+    margin:15px;
+  }
+  
+  .workshop .col-lg-4:last-child {
+    margin-right: 0; 
+  }
+  
+
+
+footer {
+    margin-left: 10px ;
+    margin-right: 10px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    display: block;
+    unicode-bidi: isolate;
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
